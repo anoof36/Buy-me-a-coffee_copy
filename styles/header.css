@@ -1,0 +1,42 @@
+.main-cont{
+    padding-top: 25px;
+ 
+}
+
+
+.main-cont a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.main-fx-header{
+    height: 64px;
+    position: relative;
+    z-index: 100;
+    background: white;
+    border-radius: 20px;
+    border-radius: 30px;
+    padding: 0 0 0 10px;
+    position: fixed;
+    
+}
+
+
+
+.hed-text{
+    padding: 7px 8px 7px 8px;
+    border-radius: 20px;
+    background: rgb(255, 255, 255);
+    margin: auto 0 auto 10px;
+}
+
+.hed-text:hover{
+    background: rgb(230, 230, 230);
+}
+
+#ma-heading{
+    margin-top: 10rem;
+}

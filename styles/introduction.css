@@ -1,0 +1,154 @@
+.intro-text {
+    text-align: center;
+}
+
+
+.sect-design h1 {
+    font-size: 20px;
+    font-weight: 900;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.main-h1 {
+    margin: 140px auto 20px auto;
+}
+
+
+.h1-container1 h1 {
+    width: 320px;
+    font-weight: 900;
+    font-size: 30px;
+
+    
+
+}
+
+@media (min-width:1000px) {
+    .h1-container1 h1 {
+        width: 80%;
+        font-weight: 900;
+        font-size: 64px;
+    }
+}
+
+
+.sec-search {
+    width: 80%;
+    height: 74px;
+    display: flex;
+    padding-left: 20px;
+    justify-content: space-evenly;
+    border-radius: 40px;
+    align-items: center;
+    font-family: sans-serif;
+
+}
+
+/* ---------------------pending down------------------------------- */
+.sec-search-button {
+    width: 80%;
+    height: 56px;
+    background: rgb(255, 230, 0);
+    border-radius: 40px;
+    align-items: center;
+    font-family: sans-serif;
+    padding: 15px 15px 15px 15px;
+    border: none;
+    font-weight: 900;
+    font-size: 18px;
+    margin: 0 auto 0 auto;
+}
+
+.sec-search-button a{
+    text-decoration: none;
+    color: black;
+}
+
+/* .sec-search-button:hover {
+    width: 160px;
+    height: 55px;
+    color: black;
+} */
+
+
+
+.intro-input {
+    border: none;
+    font-size: 22px;
+    width: 3rem;
+    outline: none;
+}
+
+
+.input-para {
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: 500;
+    display: flex;
+}
+
+.placehold-intro {
+    padding: 18px 6px 0 15px;
+    width: 63%;
+}
+
+
+.hedding-bar {
+    margin-top: 70px;
+}
+
+
+/* card */
+
+
+.card-contr {
+    width: 80%;
+    height: 412px;
+    margin: 50px auto 0 auto;
+}
+
+.card-sec {
+    list-style: none;
+    display: flex;
+    overflow: hidden;
+}
+
+.card-sec button {
+    margin-right: 1rem;
+    background: rgb(236, 236, 236);
+    border-radius: 23px;
+}
+
+
+
+
+.album-btn {
+    border-radius: 23px;
+}
+
+.rows {
+    display: flex;
+    overflow: hidden;
+}
+
+.card-gal {
+    width: 250px;
+    margin-left: 10px;
+    height: 309px;
+    background: white;
+}
+
+
+
+.img-anim {
+    transition: 1s;
+
+}
+
+.img-anim:hover {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1.1);
+    transition: 1s;
+
+}

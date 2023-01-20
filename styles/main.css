@@ -1,0 +1,20 @@
+.contnr{
+    width: 100%;
+    /* margin-top: 0px; */
+    background: rgb(255, 255, 246);
+}
+
+.templat p{
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+
+.templat h1{
+    font-family: sans-serif;
+    font-size: larger;
+    font-weight: 700;
+}
+.templat h4{
+    padding: 30px 0 30px 0;
+}
